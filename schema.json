@@ -1,0 +1,13 @@
+[
+  {
+    "namespace": "prefsButtonApi",
+    "functions": [
+      {
+        "name": "prefsButton",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]

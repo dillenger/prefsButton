@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "Preferences Button",
+  "description": "Adds a Preferences button",
+  "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/preferences-button/",
+  "version": "1.4",
+  "experiment_apis": {
+    "prefsButtonApi": {
+      "schema": "schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "prefsButtonApi"
+          ]
+        ],
+        "script": "prefsButtonApi.js"
+      }
+    }
+  },
+  "background": {
+    "scripts": [
+      "prefsButton.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Preferences",
+    "default_label": "Settings",
+    "default_icon": "prefsButton.svg",
+    "allowed_spaces": []
+  },
+  "applications": {
+    "gecko": {
+      "id": "prefsButton@dillinger",
+      "strict_min_version": "91.0",
+      "strict_max_version": "124.*"
+    }
+  },
+  "icons": {
+    "32": "prefsButton.svg",
+    "64": "prefsButton.svg"
+  }
+}

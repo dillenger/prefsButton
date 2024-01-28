@@ -1,0 +1,23 @@
+Changelog for Preferences Button
+
+1.4
+Set minimum version to Thunderbird 91.0.
+Set maximum version to Thunderbird 103.0.
+
+1.3
+Changed Options to Preferences.
+Bumped min and max versions.
+Removed tooltip from prefsButtonApi.
+Changed icon.
+
+1.2
+Set max version.
+
+1.1
+Fixed tooltip.
+Fixed homepage.
+
+1.0
+First release.
+Changed icon.
+Added tooltip.
