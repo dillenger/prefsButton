@@ -3,7 +3,7 @@
   "name": "Preferences Button",
   "description": "Adds a Preferences button",
   "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/preferences-button/",
-  "version": "1.4",
+  "version": "1.5",
   "experiment_apis": {
     "prefsButtonApi": {
       "schema": "schema.json",
