@@ -3,7 +3,7 @@
   "name": "Preferences Button",
   "description": "Adds a Preferences button",
   "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/preferences-button/",
-  "version": "1.5",
+  "version": "1.6",
   "experiment_apis": {
     "prefsButtonApi": {
       "schema": "schema.json",
@@ -35,7 +35,7 @@
     "gecko": {
       "id": "prefsButton@dillinger",
       "strict_min_version": "115.0",
-      "strict_max_version": "136.*"
+      "strict_max_version": "*"
     }
   },
   "icons": {
